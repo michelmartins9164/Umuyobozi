@@ -47,3 +47,30 @@ export const Offers = styled.div`
         font-weight: bold;
     }
             `;
+
+export const ContainerBanner = styled.div`
+    height: 520px;
+    width: 100%;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/384/818/513/himalayas-mountains-landscape-nature-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    //@media screen and (max-width: ;)
+               
+`;
+
+export const ButtonBanner = styled.button`
+    padding: 15px 80px;
+    box-sizing: border-box;
+    background-color: #ED6D30;
+    border: 1px solid black;
+    border-radius: 100px;
+    color: white;
+    font-family: 'Roboto Mono';
+    
+   
+`;

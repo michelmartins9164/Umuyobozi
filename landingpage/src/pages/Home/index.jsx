@@ -1,5 +1,6 @@
 import { NavBar } from "../../components/navBar";
 import { React } from "react";
+import { Banner } from "../../components/banner";
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
         <NavBar></NavBar>
       </header>
       <main>
-        <h1>Inicio</h1>
+        <Banner></Banner>
       </main>
     </div>
   );
