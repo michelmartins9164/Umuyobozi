@@ -49,28 +49,57 @@ export const Offers = styled.div`
             `;
 
 export const ContainerBanner = styled.div`
-    height: 520px;
+    height: 250px;
     width: 100%;
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/384/818/513/himalayas-mountains-landscape-nature-wallpaper-preview.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    //@media screen and (max-width: ;)
-               
+    @media screen and ( min-width: 830px){
+        height: 400px;
+    }
+    @media screen and ( min-width: 1300px){
+        height: 560px;
+    }
+    
 `;
 
 export const ButtonBanner = styled.button`
-    padding: 15px 80px;
+    height: 30px;  
+    width: 200px;
+    margin-top: 160px;
     box-sizing: border-box;
     background-color: #ED6D30;
     border: 1px solid black;
     border-radius: 100px;
     color: white;
     font-family: 'Roboto Mono';
-    
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        color: white;
+    }
+    font-size: 0,9rem;
+    @media screen and (min-width: 830px) {
+        height: 35px;
+        margin-top: 300px;
+        width: 240px;
+        font-size: 1rem;
+    }
+    @media screen and (min-width: 1300px) {
+        height: 40px;
+        margin-top: 430px;
+        width: 260px;
+        font-size: 1rem;
+    }
+    img{
+        margin-right: 10px;
+        margin-top: 5px;
+        height: 20px;
+        width: 20px;
+    }
 `;

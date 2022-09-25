@@ -6,7 +6,7 @@ export const Banner = () => {
     return(
         
         <ContainerBanner>
-            <ButtonBanner><a href="https://akamai.sscdn.co/uploadfile/letras/fotos/c/4/e/9/c4e987143a79ddc7769d979b49d86456.jpg">Entre em contato</a></ButtonBanner>
+            <ButtonBanner><span><img src="https://imagepng.org/whatsapp-icone-icon/whatsapp-icone/" alt="" /></span><a href="https://api.whatsapp.com/send?phone=5585991155517">Entre em contato</a></ButtonBanner>
         </ContainerBanner>  
         
         
