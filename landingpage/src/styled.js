@@ -103,3 +103,29 @@ export const ButtonBanner = styled.button`
         width: 20px;
     }
 `;
+
+export const Slide = styled.div`
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 10em;
+    
+    div {
+        width: 80%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            
+        }
+    }
+`;
